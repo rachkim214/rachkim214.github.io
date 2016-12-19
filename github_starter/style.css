@@ -1,3 +1,21 @@
-body {
-    background: red;
+body{
+ 	background: white;
+ 	color: black;
+ 	text-align: center;
+ 	font-family: helvetica,sans-serif;
+}
+
+p{
+	font-size: 20px;
+}
+
+a{
+	text-align: center;
+	font-family: helvetica,sans-serif;
+}
+
+img{
+	width:600px;
+	height:auto;
+	position: center;
 }
