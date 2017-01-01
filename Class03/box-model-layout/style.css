@@ -1,0 +1,28 @@
+.outer {
+	background: #E1E6E8;
+	text-align:center;
+	padding:10px;
+}
+.title {
+	background: black;
+	color: white;
+	padding: 5px;
+}
+.p1{
+	color:purple;
+	background:tomato;
+	padding:10px;
+	margin: 10px 0px;
+}
+.p2{
+	color:green;
+	background:tomato;
+	padding:10px;
+	margin:10px 0px;
+}
+.p3{
+	color:yellow;
+	background:tomato;
+	padding:10px;
+	margin: 10px 0px;
+}
