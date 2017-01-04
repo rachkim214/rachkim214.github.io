@@ -1,0 +1,79 @@
+body{
+	width:	720px;
+	padding: 54px;
+	text-align: left;
+	font-family: Lato;
+	line-height: 1.5;
+}
+.main-title{
+	color: #dd0000;
+	font-size: 30pt;
+}
+.sub-title{
+	color: black;
+	font-size: 20pt;
+}
+nav{
+	color:#dddddd;
+}
+nav li{
+	border-bottom: 1px solid #ddd;
+}
+img {
+	width: 100%;dfd
+}
+
+/*Question: can I just make one css bracket under ul? 
+or do I have to use both ul and li brackets?
+*/
+/*Question: how do I make the nav left align with other content?*/
+
+ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+li{
+	display: inline;
+	margin-right: 10px;
+}
+li:hover{
+	color: #aa0000;
+	border-bottom: 5px solid green;
+}
+/*Question: underline hover doesn't work*/
+
+.date{
+	color: #cccccc;
+	font-size: 20pt;
+}
+
+.sub-date{
+	color: black;
+	font-size: 20pt;
+}
+p{
+	color: #444444;
+}
+.continue{
+	color:  #dd0000;
+	float: right;
+	font-weight: bold;
+}
+hr.line{
+	border-top: 1px solid #cccccc;
+}
+.last{
+	color: #cccccc;
+}
+footer{
+	color: #dd0000;
+	list-style-type: none;
+	display: inline;
+}
+.footer{
+	border-right: .5px solid #cccccc; 
+	padding-right: 10px;
+}
+
+/*Question: how do you make the footer nav dividers to have equal spacing?*/
