@@ -20,7 +20,7 @@ nav li{
 	border-bottom: 1px solid #ddd;
 }
 img {
-	width: 100%;dfd
+	width: 100%;
 }
 
 /*Question: can I just make one css bracket under ul? 
@@ -62,18 +62,36 @@ p{
 }
 hr.line{
 	border-top: 1px solid #cccccc;
+	width: 70%;
+	float: left;
 }
-.last{
-	color: #cccccc;
+
+
+article{
+	float: left;
+	width: 70%;
 }
+
+aside{
+	float: right;
+	width: 30%;
+}
+
+
+
 footer{
 	color: #dd0000;
 	list-style-type: none;
 	display: inline;
+	float: left;
 }
-.footer{
+.footer_list{
 	border-right: .5px solid #cccccc; 
 	padding-right: 10px;
+}
+.last{
+	color: #cccccc;
+	float: left;
 }
 
 /*Question: how do you make the footer nav dividers to have equal spacing?*/
