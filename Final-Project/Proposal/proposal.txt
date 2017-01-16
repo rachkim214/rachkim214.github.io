@@ -1,0 +1,19 @@
+idea/proposal for the final project. 
+
+I would like to build a personal portfolio website that is very minimal and simple.
+The key to this project would be making viewers to easily browse my portfolio.
+I would like to develop this project from Homework Week 1, which already includes a few of my work selects.
+
+I've included a few references in 'reference.img' folder.
+I want to have an overall layout following 'reference1.jpg', and 'reference2.jpg'
+-display one big image for the top-main image
+-have 4 tabs below
+-show content of each tabs below the tab navigation bar
+
+tab 1: portfolio
+tab 2: about me (if possible, I would like to reference: 'reference-aboutme.jpg')
+tab 3: photography
+tab 4: personal blog(reference-blogpage)/or maybe linking photos in instagram
+
+-overall, I want to add javascript to make certain icons or content gradually change colors,
+when I mouseover, or move around the mouse.
