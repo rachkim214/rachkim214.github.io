@@ -35,20 +35,31 @@
 // Question: in naming variables, can I use numbers?
 // for example: var input1, var input2?
 
-var inputA = document.getElementById('red')
-var inputB = document.getElementById('green')
-var inputC = document.getElementById('blue')
 
-var changeColorBtn = document.getElementById('color-button')
-changeColorBtn.onclick = changeColor;
+
+document.getElementById('color-button').onclick = changeColor;
+// grabbing the button element, make it to turn into something when it is clicked.
 
 function changeColor(){
-	var inputA = document.getElementById('red').value = x;
-	var inputB = document.getElementById('green').value = y;
-	var inputC = document.getElementById('blue').value = z;
+// giving jobs for the button to do when clicked.
+// set variables of each red, green, and blue and grab the value.
+// because the value is a string, make them change to numbers.
+	var redValue = document.getElementById('red').value;
+		redValue = parseInt(redValue);
+	var greenValue = document.getElementById('green').value;
+		greenValue = parseInt(greenValue);
+	var blueValue = document.getElementById('blue').value;
+		blueValue = parseInt(blueValue);
 	
-	var colorStr = 'rgb(x,y,z)'
-	var rgbResult = document.getElementById('colorful-text').innerHTML = colorStr;
-	changeColorBtn.style.background = 'rgb(x,y,z)';
+	var colorStr = 'rgb(' + redValue + ',' + greenValue + ',' + blueValue + ')';
+// set a new variable that concatenate all 3 values
+	document.getElementById('colorful-text').innerHTML = colorStr;
+// grab the text element, and re-write it with colorStr	
+	var backgroundColor = document.getElementById('wrapper');
+	backgroundColor.style.background= colorStr;
+	console.log(colorStr);
+// grabbing the whole wrapper - setting it to a variable so you know what is going on, 
+// and changing the css of the element to reflect the new rgb values 
+// ex: background-color: (rgb(255, 0, 4))
 }
 
