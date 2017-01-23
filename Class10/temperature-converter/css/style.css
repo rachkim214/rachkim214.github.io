@@ -1,0 +1,61 @@
+body {
+	font-family : Helvetica;
+	text-align: center;
+	margin-top: 260px;
+	background: black;
+
+}
+
+h1{
+	font-size: 20pt;
+	color: black;
+	margin: 0;
+}
+
+.wrapper {
+	background: white;
+	width: 580px;
+	margin: auto;
+	padding: 30px 30px;
+	text-align: center;
+}
+
+
+h3 {
+	font-size: 10pt;
+	font-weight: lighter;
+	color: black;
+}
+
+.converter {
+	margin-top: 20px;
+	margin-bottom: 4px;
+}
+
+input {
+	text-align: center;
+}
+
+/*why is this button not hovering*/
+.button;hover {
+	background-color: pink;
+}
+
+.c {
+	float: left;
+	padding-left: 159px;
+	margin: 0;
+}
+.f {
+	display: inline-block;
+	margin: 0;
+	padding-left: 13px;
+}
+
+.clearfix:after{
+   content: ".";
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;*/
+}

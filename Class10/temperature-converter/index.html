@@ -5,9 +5,32 @@
 
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 <body>
 
+	<div class="wrapper">
+
+		<h1>Temperature Converter</h1>
+		<!-- I am using both id and class.
+		I shouldn't be doing this right? because this is inconsistent? -->
+		<div class="converter clearfix">
+			<input type="text" id="box1"/>
+			<button class="button">=</button>
+			<input type="text" id="box2"/>
+		</div>
+		
+<!-- 		what should be the simplest html to make this "copy" part work? -->
+		<div class="copy">
+			<h3 class="c">Celcius</h3>
+			<h3 class="f">Fahrenheit</h3>
+		</div>
+
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script type="text/javascript" src="js/project.js"></script>
+
 </body>
 </html>
