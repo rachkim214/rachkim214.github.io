@@ -1,0 +1,28 @@
+.wrapper {
+	text-align: center;
+}
+
+header {
+	background: SeaGreen;
+	top: 0;
+	position: fixed;
+	left:0;
+	right: 0;
+	height: 50px;
+	transition: all 2s;
+}
+
+.header-offset {
+	height: 25px;
+	background: tomato;
+}
+
+img {
+	width: 70%;
+	display: block;
+	margin: 30px auto 0;
+}
+
+body {
+	padding-top: 30px;
+}
