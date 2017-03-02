@@ -1,64 +1,431 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        
-        <div>
-            <h1>RK</h1>
-            <h3>rachel kim</h3>    
+
+<head>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="rk-verytopnav">
+
+        <nav class="rk-topnav">
+            <a class="rk-topnav-link" href="" id="about">About</a>
+            <a class="rk-topnav-link rk-topactive" href="" id="portfolio">Portfolio</a>
+            <a class="rk-topnav-link" href="photo.html">Photography</a>
+            <!-- <a class="rk-nav-link" href="#">BLOG</a> -->
+        </nav>
+    </div>
+
+    <div class="rk-verytopnavshow">
+
+        <nav class="rk-topnavshow">
+            <a class="rk-topnav-link-show" href="" id="about">About</a>
+            <a class="rk-topnav-link-show rk-topactiveshow" href="" id="portfolio">Portfolio</a>
+            <a class="rk-topnav-link-show" href="photo.html">Photography</a>
+            <!-- <a class="rk-nav-link" href="#">BLOG</a> -->
+        </nav>
+    </div>
+
+    <div class="top-carousel">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="overlay">
+                <div class="animatedParent header-text">
+                    <img class="animated fadeInDown rk-logo" src="../Final-Project/img/logo.png">
+
+                    <!-- <h1 class="initials">RK</h1> -->
+                    <h3 class="name"></h3>
+                </div>
+            </div>
+
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item carousel-item-1 active">
+                    <!--   <img class="d-block img-fluid" src="../Final-Project/img/AlphabetPoster.jpg" alt="First slide"> -->
+                </div>
+                <div class="carousel-item carousel-item-2">
+                    <!-- <img class="d-block img-fluid" src="../Final-Project/img/AlphabetPoster.jpg" alt="Second slide"> -->
+                </div>
+                <div class="carousel-item carousel-item-3">
+                    <!-- <img class="d-block img-fluid" src="../Final-Project/img/AlphabetPoster.jpg" alt="Third slide"> -->
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
+    </div>
 
-        <div class = "main-img clearfix"></div>
+    <nav class="rk-nav">
+        <a class="rk-nav-link" href="" id="about">About</a>
+        <a class="rk-nav-link rk-active" href="">Portfolio</a>
+        <a class="rk-nav-link" href="photo.html">Photography</a>
+        <!-- <a class="rk-nav-link" href="#">BLOG</a> -->
+    </nav>
 
-
-        <nav>
-            <a href="bio.html" id="about">About</a><a href="portfolio.html">Portfolio</a><a href="photo.html">Photography</a><a href="#">Blog</a>
-        </nav>  
+    <div class="main" id="rk-portfolio">
 
         <div class="portfolio">
 
-            <div class = "row1">
-            
-                <div class = "img1 heading-img clearfix">
-                     <h2>Cafe Blue</h2>
-                </div>
+            <div class="rk-column">
+                <a href="cafeblue.html" class="img1 rk-image">
+                    <div class="rk-img-overlay">
+                        <div class="portfolio-copy">
+                            <h2>Cafe Blue</h2>
+                            <h2 class="rk-dash"> — </h2>
+                            <p class="rk-portfolio-info">Restaurant Branding</p>
+                        </div>                        
+                    </div>
+                </a>
+                <a href="" class="img2 rk-image">
+                    <div class="rk-img-overlay">
+                        <div class="portfolio-copy">
+                            <h2>G1 Design</h2>
+                            <h2 class="rk-dash"> — </h2>
+                            <p class="rk-portfolio-info">Personal Branding</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="img3 rk-image">
+                    <div class="rk-img-overlay">
+                        <div class="portfolio-copy">
+                            <h2>Respect</h2>
+                            <h2 class="rk-dash"> — </h2>
+                            <p class="rk-portfolio-info">Poster Series</p>
+                        </div>
+                    </div>
+                </a>
 
-                <div class = "img2 heading-img clearfix">
-                     <h2>Embellish</h2>
-                </div>
-
-                <div class = "img3 heading-img clearfix">
-                     <h2>Bookcover</h2>
-                </div>
             </div>
 
-            <div class = "row2">
-            
-                <div class = "img4 heading-img clearfix">
-                     <h2>G1 Design</h2>
-                </div>
+            <div class="rk-column">
 
-                <div class = "img5 heading-img clearfix">
-                     <h2>Embellish</h2>
-                </div>
+                <a href="" class="img4 rk-image">
+                    <div class="rk-img-overlay">
+                        <div class="portfolio-copy">
+                            <h2>Alphabet Shadows</h2>
+                            <h2 class="rk-dash"> — </h2>
+                            <p class="rk-portfolio-info">Typography</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="img5 rk-image">
+                    <div class="rk-img-overlay">
+                        <div class="portfolio-copy">
+                            <h2>The Illustration Book Collection</h2>
+                            <h2 class="rk-dash"> — </h2>
+                            <p class="rk-portfolio-info">Bookcover Series</p>
+                        </div>
+                    </div>
+                </a>
 
-                <div class = "img6 heading-img clearfix">
-                     <h2>Bookcover</h2>
-                </div>
             </div>
 
+            <div class="rk-column">
+
+                <a href="" class="img6 rk-image">
+                    <div class="rk-img-overlay">
+                        <div class="portfolio-copy">
+                            <h2>The Magazine</h2>
+                            <h2 class="rk-dash"> — </h2>
+                            <p class="rk-portfolio-info">Editorial Design</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="img7 rk-image clearfix">
+                    <div class="rk-img-overlay">
+                        <div class="portfolio-copy">
+                            <h2>Embellish</h2>
+                            <h2 class="rk-dash"> — </h2>
+                            <p class="rk-portfolio-info">Spa Branding</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="img8 rk-image clearfix">
+                    <div class="rk-img-overlay">
+                        <div class="portfolio-copy">
+                            <h2>Central Park Summer Stage</h2>
+                            <h2 class="rk-dash"> — </h2>
+                            <p class="rk-portfolio-info">Concert Poster Series</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="rk-aboutme" id="rk-aboutme">
+        <div class="rk-aboutme-image">
+            <img class="rk-aboutme-logo clearfix" src="../Final-Project/img/logo-small.png">
+            <img class="rk-aboutme-logo-green clearfix" src="../Final-Project/img/logo-small-green.png">
+
+            <!-- <h1 class="initials">RK</h1> -->
+            <h4 class="rk-name">
+                    Graphic Designer | Rachel Kim
+                </h4>
+        </div>
+
+        <div class="rk-aboutme-copy">
+            <p class="rk-infoinfo">
+                Rachel is a Graphic Designer, based in NYC. She graduated from School of Visual Arts, located in the heart of New York City, and studied Communication Design.</p>
+            <div class="rk-resume">Download Resume</div>
+
+        </div>
+
+        <div class="rk-resume-info clearfix">
+            <div class="rk-subhead">
+                <div class="rk-greenstripe"></div>
+                <h4 class="rk-resume-titlestyle">Work Experience</h4>
+                <div class="rk-greenstripe"></div>
+            </div>
+
+            <div class="rk-tree-wrapper">
+                <div class="rk-tree clearfix"></div>
             
+                <div class="rk-tree-circle">
+                    <i class="fa fa-stop clearfix rk-full-circle" id="rk-full-circle" aria-hidden="true"></i>
+
+                    <i class="fa fa-first-order rk-empty-circle clearfix" id="rk-empty-circle" aria-hidden="true"></i>
+                    <i class="fa fa-first-order rk-empty-circle clearfix" id="rk-empty-circle" aria-hidden="true"></i>
+                    <i class="fa fa-first-order rk-empty-circle clearfix" id="rk-empty-circle" aria-hidden="true"></i>
+                    <i class="fa fa-first-order rk-empty-circle clearfix" id="rk-empty-circle" aria-hidden="true"></i>
+                    <i class="fa fa-first-order rk-empty-circle clearfix" id="rk-empty-circle" aria-hidden="true"></i>
+                    <i class="fa fa-first-order rk-empty-circle clearfix" id="rk-empty-circle" aria-hidden="true"></i>
+                    <i class="fa fa-first-order rk-empty-circle clearfix" id="rk-empty-circle" aria-hidden="true"></i>
+                </div>
+
+            </div>
+
+            <div class="rk-resume-wrapper">
+                <div class="rk-column-left">
+
+                    <div class="work-exp-copy1">
+                        <div class="rk-where">
+                            <h4 class="work-exp-copy-title">Lab Series</h4>
+                            <p class="work-exp-copy-date">(Jan 2016 - Present)</p>
+                        </div>
+
+                        <!-- <h4 class="rk-work-dash"> — </h4> -->
+                        <h4 class="work-exp-copy-role">Senior Digital Designer</h4>
+                        <p class="rk-work-info">
+                            Develop and oversee on-brand creative to support online promotions and upcoming launches for Global and North America. Collaborate with the Editorial Director and E-commerce team to successfully deliver e-collaterals for all channels that will promote the fresh look of the brand.</p>
+                    </div>
+
+                    <div class="work-exp-copy2">
+                        <div class="rk-where">
+                            <h4 class="work-exp-copy-title">O, The Oprah Magazine</h4>
+                            <p class="work-exp-copy-date">(Spring 2012)</p>
+                        </div>
+
+                        <!-- <h4 class="rk-work-dash"> — </h4> -->
+                        <h4 class="work-exp-copy-role">E-commerce Graphic Designer</h4>
+                        <p class="rk-work-info">
+                            Collaborate with Creative Director on advertorials and presentations for the Promotions Art Department. Collaborate with Creative Director on advertorials and presentations for the Promotions Art Department.</p>
+                    </div>
+
+                    <div class="work-exp-copy3">
+                        <div class="rk-where">
+                            <h4 class="work-exp-copy-title">Dream The End Studio</h4>
+                            <p class="work-exp-copy-date">(Spring 2011)</p>
+                        </div>
+
+                        <!-- <h4 class="rk-work-dash"> — </h4> -->
+                        <h4 class="work-exp-copy-role">Internship</h4>
+                        <p class="rk-work-info">
+                            Collaborate with Creative Director on Look Books, Logo Experiments, Photo Shoots, and Website Design. Collaborate with Creative Director on Look Books, Logo Experiments, Photo Shoots, and Website Design.</p>
+                    </div>
+
+                    <div class="work-exp-copy4">
+                        <div class="rk-where">
+                            <h4 class="work-exp-copy-title">School of Visual Arts</h4>
+                            <p class="work-exp-copy-date">(2009-2010)</p>
+                        </div>
+
+                        <!-- <h4 class="rk-work-dash"> — </h4> -->
+                        <h4 class="work-exp-copy-role">Orientation Leader</h4>
+                        <p class="rk-work-info">
+                            Guided freshmen and transfers to easily adjust to a new environment. Conducted new comers as a tour guide. Guided freshmen and transfers to easily adjust to a new environment. Conducted new comers as a tour guide.</p>
+                    </div>
+
+                </div>
+
+                <div class="rk-column-right">
+                    <div class="work-exp-copy5">
+                        <div class="rk-where clearfix">
+                            <h4 class="work-exp-copy-title">Clarins</h4>
+                            <p class="work-exp-copy-date">(Aug 2012 - Dec 2015)</p>
+                        </div>
+                        <!-- <h4 class="rk-work-dash"> — </h4> -->
+                        <h4 class="work-exp-copy-role">E-commerce Graphic Designer</h4>
+                        <p class="rk-work-info">
+                            Preside over the process of executing each project from brainstorming creative ideas to developing the final concept of North America website, online newsletter content, as well as print collateral for Internet Marketing Team.</p>
+                    </div>
+
+                    <div class="work-exp-copy6">
+                        <div class="rk-where clearfix">
+                            <h4 class="work-exp-copy-title">Seventeen Magazine</h4>
+                            <p class="work-exp-copy-date">(Fall 2011)</p>
+                        </div>
+                        <!-- <h4 class="rk-work-dash"> — </h4> -->
+                        <h4 class="work-exp-copy-role">Internship</h4>
+                        <p class="rk-work-info">
+                            Worked with Art Director on e-blasts, invitations, and presentations for the Promotions Art Department. Worked with Art Director on e-blasts, invitations, and presentations for the Promotions Art Department.</p>
+                    </div>
+
+                    <div class="work-exp-copy7">
+                        <div class="rk-where clearfix">
+                            <h4 class="work-exp-copy-title">MBC (Munwha Broadcasting Corporation</h4>
+                            <p class="work-exp-copy-date">(Summer 2010)</p>
+                        </div>
+                        <!-- <h4 class="rk-work-dash"> — </h4> -->
+                        <h4 class="work-exp-copy-role">Internship</h4>
+                        <p class="rk-work-info">
+                            Worked with Graphic Designers and Head of Department in Sports News Computer Graphic Team. Worked with Graphic Designers and Head of Department in Sports News Computer Graphic Team.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
 
-        <div class="footer">
-            <span>Copyright © 2017 Rachel Kim</span>
-        </div>
-    
+        <div class="rk-edu-info clearfix">
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+            <div class="rk-edu-colume">
+                <div class="rk-subhead">
+                <div class="rk-greenstripe2"></div>
+                <h4 class="rk-resume-titlestyle">Education</h4>
+                <div class="rk-greenstripe2"></div>
+            </div>
+
+            <div class="rk-edu-wrapper">
+                <div class="rk-edu">
+
+                    <div class="work-edu-copy1">
+                        <div class="rk-where">
+
+                            <h4 class="work-edu-copy-title">General Assembly</h4>
+                            <p class="work-edu-copy-date">(Dec 2016 - Feb 2017)</p>
+                            <!-- <p class="work-edu-copy-where">New York, NY</p> -->
+                            <h4 class="rk-edu-dash"> — </h4>
+                            <p class="rk-edu-copy-info">
+                                New York, NY
+                                <br> Front End Web Development</p>
+                        </div>
+                    </div>
+
+                    <div class="work-edu-copy2">
+                        <div class="rk-where">
+                            <h4 class="work-edu-copy-title">School of Visual Arts</h4>
+                            <p class="work-edu-copy-date">(Fall 2008 - May 2012)</p>
+                            <h4 class="rk-edu-dash"> — </h4>
+                            <p class="rk-edu-copy-info">
+                                New York, NY
+                                <br> BFA Communication Design</p>
+                        </div>
+                    </div>
+
+                    <div class="work-edu-copy3">
+                        <div class="rk-where">
+                            <h4 class="work-edu-copy-title">Art Center College of design</h4>
+                            <p class="work-edu-copy-date">(Summer 2005, 2007, 2008)</p>
+                            <h4 class="rk-edu-dash"> — </h4>
+                            <p class="rk-edu-copy-info">
+                                Pasadena, CA
+                                <br> Saturday high Courses</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="rk-edu-colume rk-skill-colume">
+            <div class="rk-subhead">
+                <div class="rk-greenstripe3"></div>
+                <h4 class="rk-resume-titlestyle">Skills</h4>
+                <div class="rk-greenstripe3"></div>
+            </div>
+
+            <div class="rk-skill-wrapper">
+                
+                <div class="skillbar clearfix " data-percent="100%">
+                    <div class="skillbar-title" style=""><span class="rk-skillbar">Photoshop</span></div>
+                    <div class="skillbar-bar" style=""></div>
+                    <div class="skill-bar-percent">100%</div>
+                </div>
+
+                <div class="skillbar clearfix " data-percent="100%">
+                    <div class="skillbar-title" style=""><span class="rk-skillbar">Illustrator</span></div>
+                    <div class="skillbar-bar" style=""></div>
+                    <div class="skill-bar-percent">100%</div>
+                </div>
+
+                <div class="skillbar clearfix " data-percent="100%">
+                    <div class="skillbar-title" style=""><span class="rk-skillbar">Indesign</span></div>
+                    <div class="skillbar-bar" style=""></div>
+                    <div class="skill-bar-percent">100%</div>
+                </div>
+
+                <div class="skillbar clearfix " data-percent="90%">
+                    <div class="skillbar-title" style=""><span class="rk-skillbar">Microsoft Ofiice</span></div>
+                    <div class="skillbar-bar" style=""></div>
+                    <div class="skill-bar-percent">90%</div>
+                </div>
+
+                <div class="skillbar clearfix " data-percent="60%">
+                    <div class="skillbar-title" style=""><span class="rk-skillbar">After Effects</span></div>
+                    <div class="skillbar-bar" style=""></div>
+                    <div class="skill-bar-percent">60%</div>
+                </div>
+
+                <div class="skillbar clearfix " data-percent="60%">
+                    <div class="skillbar-title" style=""><span class="rk-skillbar">HTML/CSS</span></div>
+                    <div class="skillbar-bar" style=""></div>
+                    <div class="skill-bar-percent">60%</div>
+                </div>
+
+                <div class="skillbar clearfix " data-percent="40%">
+                    <div class="skillbar-title" style=""><span class="rk-skillbar">Javascript</span></div>
+                    <div class="skillbar-bar" style=""></div>
+                    <div class="skill-bar-percent">40%</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="rk-footer">
+        <span class="rk-footer-copy">Copyright © 2017 Rachel Kim</span>
+    </div>
+
+        <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+        <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <script src="typed.js"></script>
         <script src="app.js"></script>
-    </body>
+</body>
+
 </html>

@@ -1,0 +1,488 @@
+body{
+ 	background: white;
+ 	color: black;
+ 	/*text-align: center;*/
+ 	/*font-family: 'Libre Franklin', sans-serif;*/
+ 	font-family: "Helvetica", sans-serif;
+ 	width: 100%;
+ 	margin: 0px;
+ 	font-weight: 100;
+ 	font-size: 14px;
+ 	height: 2000px;
+}
+.k-anilogo{
+	position: relative;
+	width:9%;
+	margin: 0 45.5%;
+	margin-top:35px;
+	/*top: 28px;
+	left: 2px;*/
+	
+}
+.k-name{
+	text-align: center;
+	margin-top: 5px;
+	font-size: 14px;
+	color: rgba(0,0,0,.85);
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
+}
+
+.k-port-anilogo{
+	height: 60px;
+
+}
+
+.k-port-logo{
+	
+	width:5%;
+	height:54px;
+	background-color: rgb(161,232,89);
+	float: left;
+}
+
+.k-logo{
+	width: 83%;
+	margin-left:4.5%;
+	margin-top: 6%;
+}
+/*==================nav=============================*/
+.k-nav{
+/*	margin-top: 129px;*/
+	margin-bottom: 6%;
+	position: relative;
+    top: 87px;
+
+}
+.k-nav-border{
+	/*border-top: 1px solid rgba(161,232,89,1);*/
+	position: relative;
+	background-color: rgba(161,232,89,.8);
+    top: 102px;
+    height: 9px;
+    width: 30%;
+    margin: 0 35%;
+}
+
+.k-nav-link{
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 100;
+	color: black;
+	font-family: "Helvetica", sans-serif;
+	padding-bottom: 4px;
+	border: 1px solid rgba(161,232,89,0);
+	margin: 1% 2.5%;
+	
+}
+
+a.k-nav-link:hover, a.k-nav-link:focus {
+	background-color: rgb(161,232,89);
+	text-decoration: none !important;
+	color: white;
+	
+	/*padding: 1%;*/
+}
+
+a.k-active{
+	/*border-bottom: 3px solid rgb(161,232,89);*/
+	background-color: rgba(161,232,89);
+	text-decoration: none;
+}
+/*=====================very top nav====================*/
+a.k-topnavshow{
+
+	width: 20%;
+	color: rgba(0,0,0,.7);
+/*	float: right;*/
+}
+
+.k-port-green{
+	height: 71px;
+	width: 20%;
+	background-color: rgba(161,232,89,.8);
+	float: right;
+	position: relative;
+	top:-70px;
+}
+
+.k-verytopnavshow{
+	position: fixed;
+
+/*	height: 54px;*/
+	right:0;
+	/*margin-left: 75%;*/
+	top:0;
+	z-index: 200;
+	
+}
+
+.k-topnav-link-show{
+	/*position: relative;*/
+	color: rgba(0,0,0,.7);
+	text-align: right;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
+	margin-top: 5px;
+	margin-right: 21px;
+	display: block;
+	/*margin: 3% 4.5%;*/
+	/*border: 1px solid rgba(161,232,89,0);*/
+	/*left: 43px;
+	top: 3px;*/
+	
+}
+a.k-topactiveshow{
+	border-bottom: 2px solid rgb(161,232,89);
+	text-decoration: none ;
+	/*padding-top: 20px;
+*/	color: rgba(0,0,0,.7)!important; 
+	
+}
+a.k-topnav-link-show:hover, a.k-topnav-link-show:focus{
+	font-weight: 400;
+	text-decoration: none;
+	/*border-bottom: 2px solid rgb(255,255,255) !important;*/
+	color: rgb(161,232,89);
+	/*width: 25%;*/
+}
+
+
+/*
+====================content===========================
+*/
+
+.k-port-copy{
+	text-align: center;
+    position: relative;
+    top: 103px;
+    /*background-color: rgba(161,232,89,.7);
+    height: 40px;*/
+   /* width: 40%;
+    margin: 0 30%;*/
+}
+
+.k-port-name{
+	text-align: center;
+	font-size: 22px;
+	font-weight: 600;
+	display: inline-block;	
+}
+.k-port-dash{
+	text-align: center;
+	display: inline-block;
+	font-size: 28px;
+	font-weight: 600;
+	margin-left: 1%;
+	position: relative;
+	top:2px;
+}
+.k-port-type{
+	text-align: center;
+	font-size: 22px;
+	font-weight: 100;
+	margin-left: 1%;
+	display: inline-block;
+
+}
+
+.k-port-info{
+	text-align: center;
+	font-size: 13px;
+	font-weight: 100;
+	position: relative;
+	top: -20px;
+	margin: 0 auto;
+	width: 60%;
+
+
+}
+/*====================img=========================*/
+.k-port-mainimg{
+	width: 65%;
+	margin: 0 auto;
+	background-image: url('img/cafeblue.jpg');
+	background-size: 110%;
+    background-position-x: -1px;
+    background-position-y: -28px;
+	height: 500px;
+	margin-top: 88px;
+}
+
+.k-arrow-left{
+	font-size: 54px;
+    color: rgba(161,232,89,.7);
+    position: relative;
+    top: 363px;
+    left: 11%;
+}
+
+.k-arrow-right{
+	font-size: 54px;
+    color: rgba(161,232,89,.7);
+    position: relative;
+    top: -278px;
+    left: 86%;
+}
+
+.k-slider-nav{
+	width:100%;
+	margin-top: -33px;
+	text-align: center;
+}
+.k-port-navimg{
+	width:21%;
+	margin-left:.5%;
+	margin-right:.5%;
+	height: 200px;
+	/*margin: 20px auto;*/
+	display: inline-block;
+	
+}
+.k-port-nav1{
+	background-image: url('img/cafeblue2.jpg');
+	background-size: 110%;
+    background-position-x: -6px;
+    background-position-y: -4px;
+}
+.k-port-nav2{
+	background-image: url('img/cafeblue3.jpg');
+	background-size: 107%;
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+.k-port-nav3{
+	background-image: url('img/cafeblue4.jpg');
+	background-size: 101%;
+    background-position-x: -1px;
+    background-position-y: -1px;
+}
+
+/*====================next==========================*/
+.k-nav-border1{
+	display: block;
+	position: relative;
+    top: 80px;
+}
+
+.k-main-title1{
+
+}
+
+.k-main-title{
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 100;
+    color: rgba(255,255,255,1);
+    font-family: "Helvetica", sans-serif;
+    background-color: rgb(161,232,89);
+    padding: 3%;
+    width: 26%;
+    margin: 0 auto;
+    position: relative;
+    top: -16px;
+    
+}
+
+/*.k-main-title:hover, .k-main-title:focus {
+	background-color: rgb(161,232,89);
+
+    text-decoration: none;
+    color: rgba(255,255,255,1);
+
+}*/
+
+/*=======Portfolio==========*/
+.k-main{
+	/*width: 70%;*/
+/*	margin: 0 auto;*/
+	position: relative;
+    top: 58px;
+    /*display: block;*/
+
+}
+.k-portfolio {
+	margin-top: 7%;
+	text-align: center;
+/*	display: inline-block;*/
+	/*overflow: hidden;
+	/*padding-bottom: 100px;*/
+
+}
+.k-row{
+	/*width: 100%;*/
+/*	margin-left: 2.6%;
+	margin-right: 2.6%;*/
+/*	display: inline-block;*/
+	width: 840px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.k-image{
+	float: left;
+	text-decoration: none;
+	position: relative;
+    color: black;
+	margin: 5px;
+	width: 200px;
+	height: 200px;
+	background-color: rgba(161,232,89,.8);
+}
+.k-portfolio-copy h2{
+	text-align: center;
+	font-size: 14px;
+	font-weight: 300;
+
+}
+.k-portfolio-copy{
+	/*margin-top: 29%;*/
+    width: 50%;
+   /* margin-left: 24%;*/
+		
+}
+
+.k-dash h2{
+	margin-top: 0px;
+	margin-bottom: 0;
+}
+
+p.k-portfolio-info{
+	font-size: 12px;
+	margin-top: 10%;
+	font-weight: 100;
+}
+
+
+
+.k-img-overlay {
+	position: absolute;
+	background-color: rgba(161,232,89,.8);
+	opacity: 0;
+	top:0;
+	left:0;
+	bottom: 0;
+	right: 0;
+	z-index: 10;
+	display:flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    transition: opacity .5s;
+}
+.k-img-overlay:hover {
+	opacity: 1;
+
+}
+
+.k-img1 {
+	background-image: url('img/cafeblue.jpg');
+	background-size: 200%;
+	background-position-x: -200px;
+	background-position-y: 0px;
+	
+	
+	background-color: rgba(255, 255, 255, 0.6);
+
+	color: black;		
+}
+
+
+.img1:hover {
+    opacity: 1.0;
+}
+
+.k-img2 {
+	
+    background-image: url('img/g1design.jpg');
+	background-size: 172%;
+	background-position-x: 51%; 
+	background-position-y: 60%;
+
+}
+
+.k-img3 {
+	background-image: url('img/respect2.jpg');
+	background-size: 104%;
+    background-position-x: -1px;
+    background-position-y: -26px;
+
+}
+
+.k-img4 {
+	background-image: url('img/AlphabetPoster.jpg');
+    background-size: 111%;
+    background-position-x: -17px;
+    background-position-y: -7px;
+
+}
+
+.k-img5 {
+	background-image: url('img/bookcover2.jpg');
+	background-size: 400%;
+	background-position-x: -523px;
+    background-position-y: -57px;
+
+}
+
+.k-img6 {
+    background-image: url('img/magazine_.jpg');
+	background-size: 244%;
+    background-position-x: 7%;
+    background-position-y: 60%;
+
+
+}
+.k-img7 {
+	background-image: url('img/Embellish.jpg');
+	background-size: 201%;
+    background-position-x: 47%;
+    background-position-y: 73%;
+
+
+}
+.k-img8 {
+	background-image: url('img/cp2.jpg');
+	background-size: 101%;
+    background-position-x: 47%;
+    background-position-y: 53%;
+
+
+}
+	
+
+
+/*=======footer===============*/
+
+.rk-footer{
+	/*height: 4%;*/
+	width: 100%;
+	position: relative;
+	bottom: -5%;
+	background-color: white;
+	text-align: center;
+	color: rgba(0,0,0,.7);
+	/*margin-top: 10%;*/
+	font-weight: 100;
+	font-size: 13px;
+	padding: 15px 0px;
+	box-sizing: border-box;
+
+
+}
+.rk-footer-copy{
+	margin-top: -4%;
+}
+
+.clearfix:after{
+   content: ".";
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;*/
+}
